@@ -23,7 +23,7 @@ echo "STEP 5 of 10: Installed Python"
 sudo apt -y install build-essential > /dev/null 2>&1
 echo "STEP 5.5 of 10: Installed Build Essentials"
 
-sudo git clone https://github.com/shanhaicoder/XENGPUMiner.git > /dev/null 2>&1
+git clone https://github.com/shanhaicoder/XENGPUMiner.git > /dev/null 2>&1
 echo "STEP 6 of 10: Cloned https://github.com/shanhaicoder/XENGPUMiner.git"
 
 cd XENGPUMiner
@@ -63,7 +63,6 @@ sleep 1
 
 echo "-------------------------"
 echo "    MINING  XENBLOCKS    "
-echo "     https://xen.pub     "
 echo "-------------------------"
 echo " "
 tail -f /root/XENGPUMiner/miner.log
