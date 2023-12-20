@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cd XENGPUMiner
+
 echo "STEP 10 of 10: Starting Miner & 10 GPUs"
 sudo nohup python3 miner.py --gpu=true > miner.log 2>&1 &
 sleep 1
